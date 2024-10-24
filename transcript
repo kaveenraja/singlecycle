@@ -24,3 +24,31 @@
 # Compile of sext16.v was successful.
 # Compile of zext16.v was successful.
 # 2 compiles, 0 failed with no errors.
+# Compile of decode.v was successful.
+# Compile of ecmux4_1.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ecmux4_1.v failed with 1 errors.
+# Compile of ecmux4_1.v failed with 1 errors.
+# Compile of ecmux4_1.v was successful.
+# Compile of decode.v failed with 1 errors.
+# Compile of instr_decoder.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v was successful.
+# Compile of decode.v failed with 1 errors.
+# Error opening /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/(vlog-13069) /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
+# Path name '/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/(vlog-13069) /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v' doesn't exist.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v was successful.
+# Compile of execute.v was successful.

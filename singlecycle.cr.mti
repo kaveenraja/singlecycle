@@ -59,6 +59,13 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	memory
 
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/zext16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/zext16.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module zext16
+
+Top level modules:
+	zext16
+
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module fetch
@@ -66,19 +73,19 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	fetch
 
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module sext16
+
+Top level modules:
+	sext16
+
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module clkrst
 
 Top level modules:
 	clkrst
-
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module execute
-
-Top level modules:
-	execute
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -114,6 +121,13 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 
 Top level modules:
 	register
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module exmux4_1
+
+Top level modules:
+	exmux4_1
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018

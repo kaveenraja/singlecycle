@@ -30,13 +30,13 @@ r1
 Z4 o-work work
 Z5 tCvgOpt 0
 vdecode
-!s110 1729739844
+!s110 1729744026
 !i10b 1
-!s100 d:C5ljMCY0fdJQIoK2eiN3
-IO[6Z2_0@1>AVano]Fa<EW3
+!s100 kH`JlYN9AAHDFdfn44AH^1
+IkRJ;4GU]J3D:e[F?M=9aI3
 R1
 R2
-w1729739793
+w1729744023
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
 L0 8
@@ -44,7 +44,7 @@ R3
 r1
 !s85 0
 31
-!s108 1729739844.000000
+!s108 1729744026.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v|
 !i113 1
@@ -93,13 +93,13 @@ Z8 !s108 1729704876.000000
 R4
 R5
 vexecute
-R0
+!s110 1729745906
 !i10b 1
-!s100 ^Tl6dKU1360YCNnV>Q0C43
-ITbW48QCMl[0oR]a<8h5VY0
+!s100 KTnT;j7?LSS`VG<G[aP`i0
+InReQR8jMD:YQSmVbicT_F0
 R1
 R2
-w1646504591
+w1729745899
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
 L0 8
@@ -107,9 +107,30 @@ R3
 r1
 !s85 0
 31
-R8
+!s108 1729745906.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v|
+!i113 1
+R4
+R5
+vexmux4_1
+!s110 1729742534
+!i10b 1
+!s100 <ll19>^F9n@P08Q9OYm@33
+Ig>L<OD@>JeLoVjUPJooWL1
+R1
+R2
+w1729742531
+8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
+F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1729742534.000000
+!s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v|
 !i113 1
 R4
 R5
@@ -198,13 +219,13 @@ R15
 R4
 R5
 vinstr_decoder
-!s110 1729736823
+!s110 1729742551
 !i10b 1
 !s100 X?EfkIj_cfj;k<_DoJ^LF2
 I8PH>Y_SQ6=7EemOgA_X9L3
 R1
 R2
-w1729735933
+w1729742543
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v
 L0 8
@@ -212,7 +233,7 @@ R3
 r1
 !s85 0
 31
-!s108 1729736823.000000
+!s108 1729742551.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v|
 !i113 1

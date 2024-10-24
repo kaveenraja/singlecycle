@@ -332,7 +332,7 @@ module instr_decoder (// Outputs
 					ImmSrc = 1'b0;
 				end
 
-			5'b11010:
+			5'b10010:
 				begin
 					RegDst = 2'b01;
 					RegSrc = 2'b11;
