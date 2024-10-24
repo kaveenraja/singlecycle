@@ -33,3 +33,8 @@
 # Compile of cla_16b.v was successful.
 # Compile of overflow.v was successful.
 # 33 compiles, 0 failed with no errors.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of xor2.v was successful.
+# 4 compiles, 0 failed with no errors.

@@ -492,6 +492,69 @@ R18
 !i113 1
 R5
 R6
+vnand2
+Z36 !s110 1729811896
+!i10b 1
+!s100 Qaz<XiJiE34aBgU@ChX]m0
+IQ9D>dcQVk=GF^7L<F<n;Q1
+R1
+R2
+w1485366434
+8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v
+F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z37 !s108 1729811896.000000
+!s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v|
+!i113 1
+R5
+R6
+vnor2
+R36
+!i10b 1
+!s100 ^ST2=n6@V3Cn4lT]FaJWf1
+I;>@28iQ6JLAVYV9iLJjzl2
+R1
+R2
+Z38 w1485366436
+8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v
+F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R37
+!s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v|
+!i113 1
+R5
+R6
+vnot1
+Z39 !s110 1729811897
+!i10b 1
+!s100 [dhe[8iz;a=YaHa:alMQ`3
+IBWXg=SH6caBQZ5jzB]d7l1
+R1
+R2
+R38
+8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v
+F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z40 !s108 1729811897.000000
+!s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v|
+!i113 1
+R5
+R6
 vop
 R0
 !i10b 1
@@ -742,6 +805,27 @@ r1
 R18
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v|
+!i113 1
+R5
+R6
+vxor2
+R39
+!i10b 1
+!s100 URQ:lLM5T94FECh>cJDfl3
+I__W?7ZQGGR`Wo;zFa69f52
+R1
+R2
+R38
+8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v
+F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R40
+!s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v|
 !i113 1
 R5
 R6
