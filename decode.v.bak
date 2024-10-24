@@ -21,7 +21,7 @@ module decode (
 	output  [15:0] Imm8;
 	output  [15:0] Imm11;
 	output  [15:0] Reg1;
-	output  [15:0] Reg2;
+	output  [15:0] Imm2;
 	output  [1:0]  RegSrc;
 	output  [4:0]  to_ALUOP;
 	output 	[1:0]  func;

@@ -2,3 +2,25 @@
 # Compile of instr_decoder.v failed with 3 errors.
 # Compile of instr_decoder.v failed with 3 errors.
 # Compile of instr_decoder.v was successful.
+# Compile of instr_decoder.v was successful.
+# Compile of decode.v failed with 1 errors.
+# Compile of decode.v was successful.
+# Compile of decode.v failed with 10 errors.
+# Compile of sext16.v failed with 6 errors.
+# Compile of zext16.v failed with 5 errors.
+# 3 compiles, 3 failed with 21 errors.
+# Compile of decode.v failed with 2 errors.
+# Compile of sext16.v failed with 4 errors.
+# Compile of zext16.v failed with 4 errors.
+# 3 compiles, 3 failed with 10 errors.
+# Compile of decode.v was successful.
+# Compile of sext16.v failed with 1 errors.
+# Compile of zext16.v failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of zext16.v failed with 1 errors.
+# Compile of sext16.v was successful.
+# Compile of zext16.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of sext16.v was successful.
+# Compile of zext16.v was successful.
+# 2 compiles, 0 failed with no errors.

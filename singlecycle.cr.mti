@@ -42,6 +42,13 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	proc_hier_bench
 
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module instr_decoder
+
+Top level modules:
+	instr_decoder
+
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ALU_OP.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ALU_OP.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 
@@ -80,6 +87,13 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	proc_hier
 
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module decode
+
+Top level modules:
+	decode
+
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module proc
@@ -93,13 +107,6 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 
 Top level modules:
 	mux2_1
-
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module decode
-
-Top level modules:
-	decode
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
