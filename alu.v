@@ -10,7 +10,7 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
     input  [OPERAND_WIDTH -1:0] InA ; // Input operand A
     input  [OPERAND_WIDTH -1:0] InB ; // Input operand B
     input                       Cin ; // Carry in
-    input  [31:0] 				Oper; // Operation type
+    input  [3:0] 				Oper; // Operation type
     input                       invA; // Signal to invert A
     input                       invB; // Signal to invert B
     input                       sign; // Signal for signed operation
@@ -93,6 +93,6 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
 
 	/* OUT */
 	
-	assign out = (Oper[3] & Oper[2]) ? flag_out : flag_in;
+	assign Out = (Oper[3] & Oper[2]) ? flag_out : flag_in;
 
 endmodule

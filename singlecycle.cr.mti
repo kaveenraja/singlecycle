@@ -21,12 +21,26 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	dff
 
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module nor2
+
+Top level modules:
+	nor2
+
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module wb
 
 Top level modules:
 	wb
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module not1
+
+Top level modules:
+	not1
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -82,13 +96,6 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	memory
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module fetch
-
-Top level modules:
-	fetch
-
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/zext16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/zext16.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module zext16
@@ -96,26 +103,26 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	zext16
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module proc_hier
+-- Compiling module fetch
 
 Top level modules:
-	proc_hier
+	fetch
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module clkrst
+-- Compiling module xor2
 
 Top level modules:
-	clkrst
+	xor2
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module sext16
+-- Compiling module nand2
 
 Top level modules:
-	sext16
+	nand2
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -124,26 +131,26 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	execute
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module overflow
+-- Compiling module sext16
 
 Top level modules:
-	overflow
+	sext16
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module mux2_1
+-- Compiling module clkrst
 
 Top level modules:
-	mux2_1
+	clkrst
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module proc
+-- Compiling module proc_hier
 
 Top level modules:
-	proc
+	proc_hier
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -152,12 +159,26 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	decode
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module register
+-- Compiling module proc
 
 Top level modules:
-	register
+	proc
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module overflow
+
+Top level modules:
+	overflow
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/shifter.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/shifter.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -166,33 +187,19 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	shifter
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module memory2c
+-- Compiling module register
 
 Top level modules:
-	memory2c
+	register
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/inverter16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/inverter16.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module memory2c
+-- Compiling module inverter16
 
 Top level modules:
-	memory2c
-
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module register_bypass
-
-Top level modules:
-	register_bypass
-
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module mux4_1
-
-Top level modules:
-	mux4_1
+	inverter16
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -201,12 +208,33 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	ecmux4_1
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/inverter16.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/inverter16.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module inverter16
+-- Compiling module mux4_1
 
 Top level modules:
-	inverter16
+	mux4_1
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module register_bypass
+
+Top level modules:
+	register_bypass
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018

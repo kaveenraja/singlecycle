@@ -38,3 +38,6 @@
 # Compile of not1.v was successful.
 # Compile of xor2.v was successful.
 # 4 compiles, 0 failed with no errors.
+# Compile of alu.v was successful.
+# Compile of set.v was successful.
+# 2 compiles, 0 failed with no errors.
