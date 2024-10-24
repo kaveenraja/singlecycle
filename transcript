@@ -1,10 +1,35 @@
 # Loading project singlecycle
+# Compile of clkrst.v was successful.
+# Compile of decode.v was successful.
+# Compile of dff.v was successful.
+# Compile of execute.v was successful.
+# Compile of fetch.v was successful.
+# Compile of memory.v was successful.
+# Compile of memory2c.syn.v was successful.
+# Compile of memory2c.v was successful.
+# Compile of proc.v was successful.
+# Compile of proc_hier.v was successful.
+# Compile of proc_hier_bench.v was successful.
+# Compile of wb.v was successful.
+# Compile of decoder3_8.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of mux8_1.v was successful.
+# Compile of regFile_bypass.v was successful.
+# Compile of register.v was successful.
+# Compile of register_bypass.v was successful.
 # Compile of fulladder16.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of instr_decoder.v was successful.
+# Compile of ALU_OP.v was successful.
+# Compile of sext16.v was successful.
+# Compile of zext16.v was successful.
+# Compile of ecmux4_1.v was successful.
+# Compile of inverter16.v was successful.
+# Compile of op.v was successful.
+# Compile of shifter.v was successful.
 # Compile of alu.v was successful.
+# Compile of demux1_2.v was successful.
+# Compile of set.v was successful.
 # Compile of cla_16b.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Compile of alu.v failed with 1 errors.
-# Compile of alu.v failed with 1 errors.
 # Compile of overflow.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of alu.v was successful.
+# 33 compiles, 0 failed with no errors.

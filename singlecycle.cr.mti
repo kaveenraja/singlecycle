@@ -51,13 +51,6 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	proc_hier_bench
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/set.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/set.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module set
-
-Top level modules:
-	set
-
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/demux1_2.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/demux1_2.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module demux1_2
@@ -130,6 +123,13 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 
 Top level modules:
 	execute
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module overflow
+
+Top level modules:
+	overflow
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018

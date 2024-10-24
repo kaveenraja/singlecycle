@@ -88,7 +88,7 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
 	assign Zfl = flag_in === 16'b0000000000000000;
 	assign Sfl = flag_in[15];
 
-	set set0(.Of(Ofl), .Cf(Cfl), .Zf(Zfl), .Sf(Sfl), .Oper(Oper), .out(flag_out));
+	set set0(.Of(Ofl), .Cf(Cfl), .Zf(Zfl), .Sf(Sfl), .Oper(Oper[1:0]), .out(flag_out));
 
 
 	/* OUT */
