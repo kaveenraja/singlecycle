@@ -80,12 +80,12 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	proc_hier
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module decode
+-- Compiling module proc
 
 Top level modules:
-	decode
+	proc
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -94,12 +94,12 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	mux2_1
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module proc
+-- Compiling module decode
 
 Top level modules:
-	proc
+	decode
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -108,19 +108,12 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	register
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module memory2c
+-- Compiling module mux4_1
 
 Top level modules:
-	memory2c
-
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module memory2c
-
-Top level modules:
-	memory2c
+	mux4_1
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
@@ -129,12 +122,19 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	register_bypass
 
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.syn.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module mux4_1
+-- Compiling module memory2c
 
 Top level modules:
-	mux4_1
+	memory2c
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
