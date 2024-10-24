@@ -1,0 +1,15 @@
+module op(msb, in, oper, out);
+
+	input [1:0] oper;
+	input       msb;
+	input       in;
+
+	output      out;
+
+	wire mOut;
+
+	mux2_1 mux0(.a(in), .b(msb), .s(oper[1]), .out(mOut));
+
+	assign out = ~oper[0] & (mOut);
+
+endmodule

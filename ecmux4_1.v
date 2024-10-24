@@ -1,4 +1,4 @@
-module exmux4_1(a, b, c, d, s, out);
+module ecmux4_1(a, b, c, d, s, out);
 	input a, b, c, d;
 	input [1:0] s;
 	output out;

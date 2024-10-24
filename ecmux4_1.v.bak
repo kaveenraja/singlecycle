@@ -6,6 +6,7 @@ module exmux4_1(a, b, c, d, s, out);
 	reg o;
 
 	always @(s or a or b or c or d)
+	begin
 		case(s)
 			2'b00: o = a;
 			2'b01: o = b;
