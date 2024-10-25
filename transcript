@@ -56,3 +56,10 @@
 # Compile of ALU_OP.v was successful.
 # Compile of brncnd.v failed with 9 errors.
 # Compile of brncnd.v was successful.
+# Compile of execute.v failed with 1 errors.
+# Compile of SHL1.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of execute.v was successful.
+# Compile of execute.v failed with 1 errors.
+# Compile of execute.v failed with 1 errors.
+# Compile of execute.v was successful.
