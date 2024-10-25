@@ -20,7 +20,7 @@ module execute (// Outputs
 	input [15:0]	Imm8;
 	input [15:0]	Imm11;
 	input [1:0]		BSrc;
-	input [5:0]		brin;
+	input [4:0]		brin;
 	input 			ALUJmp;
 	input			ImmSrc;
 

@@ -40,7 +40,7 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
 	wire  [OPERAND_WIDTH -1:0] xor_out;
 	wire  [OPERAND_WIDTH -1:0] and_out;
 	wire  [OPERAND_WIDTH -1:0] cla_sum;
-	wire  [OPERAND_WIDTH -1:0] cla_cout;
+	wire                       cla_cout;
 
 	wire  [OPERAND_WIDTH -1:0] logic_out_pre;
 	wire  [OPERAND_WIDTH -1:0] logic_out;
@@ -65,7 +65,7 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
 	/* Shifter */
 
 	inverter16 inv0(.in(shifter_in_a), .en(1'b1), .out(shifter_out_1));
-	shifter    shf0(.In(shifter_in_a), .ShAmt(shifter_in_b), .Oper(Oper[1:0]), .Out(shifter_out_0));
+	shifter    shf0(.In(shifter_in_a), .ShAmt(shifter_in_b[3:0]), .Oper(Oper[1:0]), .Out(shifter_out_0));
 	
 	mux2_1 mux2[15:0](.a(shifter_out_0), .b(shifter_out_1), .s( {16{Oper[3]}} ), .out(shifter_out));
 

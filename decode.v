@@ -51,7 +51,7 @@ module decode (
 
 	// INSTRUCTION DECODER
 	instr_decoder ID1(.instr(Instruction[15:11]), .RegDst(RegDst), .RegSrc(RegSrc), .to_ALUOP(to_ALUOP), ._0ext(_0ext), .RegWrt(RegWrt), .Bsrc(Bsrc), .brin(brin), .MemWrt(MemWrt), .ALUJmp(ALUJmp), .ImmSrc(ImmSrc));
-	
+	assign func = Instruction[1:0];
 
 	// IMMEDIATE VALUES
 	zext16 #(5) se0(.in(Instruction[4:0]), .out(imm5_zero));
@@ -68,7 +68,7 @@ module decode (
 
 	// REG
 	ecmux4_1 mux3[2:0](.a(Instruction[7:5]), .b(Instruction[10:8]), .c(Instruction[4:2]), .d({3{1'b1}}), .s({3{RegDst}}), .out(wrReg));
-	regFile_bypass #(16) regFile(.read1RegSel(Instruction[10:8]), .read2RegSel(Instruction[7:5]), .writeRegSel(wrReg), .writeData(wbdata), .writeEn(RegWrt), .clk(clk), .rst(rst), .read1Data(Reg1), .read2Data(Reg2), .err(err));
+	regFile_bypass #(16) regFile0(.read1RegSel(Instruction[10:8]), .read2RegSel(Instruction[7:5]), .writeRegSel(wrReg), .writeData(wbdata), .writeEn(RegWrt), .clk(clk), .rst(rst), .read1Data(Reg1), .read2Data(Reg2), .err(err));
    
 endmodule
 

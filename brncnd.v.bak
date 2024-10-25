@@ -3,7 +3,7 @@ module brncnd(brin, SF, ZF, OF, CF, BR);
 	input 		ZF;
 	input 		OF;
 	input 		CF;
-	input [5:0] brin
+	input [5:0] brin;
 
 	output reg 	BR;
 

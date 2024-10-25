@@ -26,7 +26,7 @@ module memory (// Outputs
 	// MAIN
 
 	memory2c memcell(.data_out(Out1), .data_in(wrdata), .addr(ALUout), .enable(1'b1), .wr(MemWrt), .createdump(1'b1), .clk(clk), .rst(rst));
-	assign Out2 = wrdata;
+	assign Out2 = ALUout;
 
 
    

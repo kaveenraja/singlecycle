@@ -153,7 +153,7 @@ module ALU_OP (// Outputs
 				case(func)
 					2'b00:
 						begin
-							ALU  = 4'b0000;
+							ALU  = 4'b0010;
 							InvA = 1'b0;
 							InvB = 1'b0;
 							cin  = 1'b0;
@@ -224,7 +224,7 @@ module ALU_OP (// Outputs
 				cin  = 1'b0;
 			end
 
-			5'01101:
+			5'b01101:
 			begin
 				ALU  = 4'b0110;
 				InvA = 1'b0;

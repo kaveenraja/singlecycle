@@ -49,9 +49,9 @@ module proc (/*AUTOARG*/
 
 	fetch   fetch0(.pcIN(wb_pc), .clk(clk), .rst(rst), .pcOUT(int_pc), .instruction(int_instr));
 	
-	decode decode0(.Imm5(int_Imm5), .Imm8(int_Imm8), .Imm11(int_Imm11), .Reg1(int_Reg1), .Reg2(int_Reg1), .RegSrc(int_RegSrc), .to_ALUOP(int_to_ALUOP), .func(int_func), .Bsrc(int_Bsrc), .brin(int_brin), .MemWrt(int_MemWrt), .ALUJmp(int_ALUJmp), .ImmSrc(int_ImmSrc), .err(dec_err), .Instruction(int_instr), .wbdata(wb_data), .clk(clk), .rst(rst));
+	decode decode0(.Imm5(int_Imm5), .Imm8(int_Imm8), .Imm11(int_Imm11), .Reg1(int_Reg1), .Reg2(int_Reg2), .RegSrc(int_RegSrc), .to_ALUOP(int_to_ALUOP), .func(int_func), .Bsrc(int_Bsrc), .brin(int_brin), .MemWrt(int_MemWrt), .ALUJmp(int_ALUJmp), .ImmSrc(int_ImmSrc), .err(dec_err), .Instruction(int_instr), .wbdata(wb_data), .clk(clk), .rst(rst));
 
-   	execute execu0(.Out0(int_Out0), .Out3(int_Out3), .ALUOut(int_ALUOut), .PCwb(wb_pc), .PC(int_pc), .to_ALUOP(int_to_ALUOP), .func(int_func), .Reg1(int_Reg1), .Reg2(int_Reg1), .Imm5(int_Imm5), .Imm8(int_Imm8), .Imm11(int_Imm11), .BSrc(int_Bsrc), .brin(int_brin), .ALUJmp(int_ALUJmp), .ImmSrc(int_ImmSrc));
+   	execute execu0(.Out0(int_Out0), .Out3(int_Out3), .ALUOut(int_ALUOut), .PCwb(wb_pc), .PC(int_pc), .to_ALUOP(int_to_ALUOP), .func(int_func), .Reg1(int_Reg1), .Reg2(int_Reg2), .Imm5(int_Imm5), .Imm8(int_Imm8), .Imm11(int_Imm11), .BSrc(int_Bsrc), .brin(int_brin), .ALUJmp(int_ALUJmp), .ImmSrc(int_ImmSrc));
 
 	memory memory0(.Out1(int_Out1), .Out2(int_Out2), .ALUout(int_ALUOut), .wrdata(int_Reg2), .MemWrt(int_MemWrt), .clk(clk), .rst(rst));
 
@@ -59,7 +59,7 @@ module proc (/*AUTOARG*/
 	
 	always @(dec_err)
 	begin
-		err = dec_err;
+		err <= dec_err;
 	end
 
 endmodule // proc
