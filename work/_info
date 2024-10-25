@@ -9,7 +9,7 @@ z2
 cModel Technology
 d/home/kaveen/cs552/HW3/hw3-work/hw3_2
 valu
-Z0 !s110 1729813508
+Z0 !s110 1729831164
 !i10b 1
 !s100 T8bHeW0BbdjOG3a@oi?Ho2
 IMg7S;3z2jUjknUSBVXb;93
@@ -23,14 +23,14 @@ Z3 OP;L;10.7c;67
 r1
 !s85 0
 31
-Z4 !s108 1729813508.000000
+Z4 !s108 1729831164.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/alu.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 vALU_OP
-!s110 1729818034
+Z7 !s110 1729831163
 !i10b 1
 !s100 [lXfPJFN>Fn5aL:=JH@3H1
 IO:l2HPN<dcoI]L=WIbMUh0
@@ -44,7 +44,7 @@ R3
 r1
 !s85 0
 31
-!s108 1729818034.000000
+Z8 !s108 1729831163.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ALU_OP.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ALU_OP.v|
 !i113 1
@@ -52,7 +52,7 @@ R5
 R6
 n@a@l@u_@o@p
 vbrncnd
-!s110 1729818939
+Z9 !s110 1729831165
 !i10b 1
 !s100 M1;PBPB<L6jTKHhXoTDh:3
 I;M57bHN3`oS8@g2HoScWl2
@@ -66,56 +66,56 @@ R3
 r1
 !s85 0
 31
-!s108 1729818939.000000
+Z10 !s108 1729831165.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/brncnd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/brncnd.v|
 !i113 1
 R5
 R6
 vcla_16b
-Z7 !s110 1729810600
+R0
 !i10b 1
 !s100 _9kZOkAITU^eL^RHSN8je3
 I;=6aGRnRSo_ZIX=>HQC5n2
 R1
 R2
-Z8 w1729806075
-Z9 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v
-Z10 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v
+Z11 w1729806075
+Z12 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v
+Z13 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v
 L0 7
 R3
 r1
 !s85 0
 31
-Z11 !s108 1729810600.000000
-Z12 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v|
-Z13 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v|
+R4
+Z14 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v|
 !i113 1
 R5
 R6
 vcla_4b
-R7
+R0
 !i10b 1
 !s100 ;HXH@U]1X<W2O][oi8Db82
 I<Qj[^V?DPzn6UmO_VmWe?1
 R1
 R2
-R8
-R9
-R10
-Z14 L0 33
+R11
+R12
+R13
+Z16 L0 33
 R3
 r1
 !s85 0
 31
-R11
-R12
-R13
+R4
+R14
+R15
 !i113 1
 R5
 R6
 vclkrst
-Z15 !s110 1729810590
+Z17 !s110 1729831161
 !i10b 1
 !s100 17R8;?7`BJD8F]2OJne>o0
 I_W8o5MlUlL<a^bB[;Vkjc2
@@ -129,14 +129,14 @@ R3
 r1
 !s85 0
 31
-Z16 !s108 1729810590.000000
+Z18 !s108 1729831161.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/clkrst.v|
 !i113 1
 R5
 R6
 vdecode
-R15
+R17
 !i10b 1
 !s100 ^a5l?KzVOVa<ifkQcJ2;V1
 IElU`C<;RS:ZzBF7Z>hnne2
@@ -150,14 +150,14 @@ R3
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decode.v|
 !i113 1
 R5
 R6
 vdecoder3_8
-Z17 !s110 1729810594
+Z19 !s110 1729831162
 !i10b 1
 !s100 =Q2TYZK9Ya8nGB>99n]C_2
 I1WEIQ3?ZB<ZY2O@05QCnE0
@@ -171,14 +171,14 @@ R3
 r1
 !s85 0
 31
-Z18 !s108 1729810594.000000
+Z20 !s108 1729831162.000000
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decoder3_8.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decoder3_8.v|
 !i113 1
 R5
 R6
 vdemux1_2
-Z19 !s110 1729810599
+R0
 !i10b 1
 !s100 _YbKFOWSX>m[VZ`CLMW[f3
 I^zY_@1azP<XFhzZNn>[N30
@@ -192,14 +192,14 @@ R3
 r1
 !s85 0
 31
-Z20 !s108 1729810599.000000
+R4
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/demux1_2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/demux1_2.v|
 !i113 1
 R5
 R6
 vdff
-!s110 1729810591
+R17
 !i10b 1
 !s100 F^G8EIaUgKJ6DQB2zBzd^2
 I@aBH4eO5>El8UjDa@mhCc0
@@ -213,41 +213,41 @@ R3
 r1
 !s85 0
 31
-!s108 1729810591.000000
+R18
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/dff.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/dff.v|
 !i113 1
 R5
 R6
 vecmux4_1
-Z21 !s110 1729810598
+R0
 !i10b 1
 !s100 87VWB>?RYPg6m]mWf9z1E2
 IFzoCi>;[DOzTELeO>E^oa3
 R1
 R2
 w1729746142
-Z22 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
-Z23 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
+Z21 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
+Z22 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v
 L0 1
 R3
 r1
 !s85 0
 31
-Z24 !s108 1729810598.000000
-Z25 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v|
-Z26 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v|
+R4
+Z23 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/ecmux4_1.v|
 !i113 1
 R5
 R6
 vexecute
-!s110 1729826716
+R17
 !i10b 1
-!s100 <OAec363=?]U0JcNLcHYk3
-IdEej:hTSjGdo8PP:0MJiz2
+!s100 =SDh9i[<EzIQ=dGPh]1bD3
+IYoKFaK=PSeeQHC=n]j:PM3
 R1
 R2
-w1729826708
+w1729826882
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
 L0 8
@@ -255,7 +255,7 @@ R3
 r1
 !s85 0
 31
-!s108 1729826716.000000
+R18
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v|
 !i113 1
@@ -269,21 +269,21 @@ Ig>L<OD@>JeLoVjUPJooWL1
 R1
 R2
 w1729742531
+R21
 R22
-R23
 L0 1
 R3
 r1
 !s85 0
 31
 !s108 1729742534.000000
-R25
-R26
+R23
+R24
 !i113 1
 R5
 R6
 vfetch
-Z27 !s110 1729810592
+R17
 !i10b 1
 !s100 `N:zHEQaA>O19CiWb``zG3
 I13n[54>B75KI7Mk>flZ>N2
@@ -297,99 +297,99 @@ R3
 r1
 !s85 0
 31
-Z28 !s108 1729810592.000000
+R18
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fetch.v|
 !i113 1
 R5
 R6
 vfulladder1
-Z29 !s110 1729810595
+R7
 !i10b 1
 !s100 YHaa=1kS9:8>Ao]hQ<Q;^1
 IY1Ceg6Cg5]koJdLgF]RoO0
 R1
 R2
-Z30 w1729805987
-Z31 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v
-Z32 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v
-R14
+Z25 w1729805987
+Z26 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v
+Z27 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v
+R16
 R3
 r1
 !s85 0
 31
-Z33 !s108 1729810595.000000
-Z34 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v|
-Z35 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v|
+R8
+Z28 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/fulladder16.v|
 !i113 1
 R5
 R6
 vfulladder16
-R29
+R7
 !i10b 1
 !s100 0;3TgVNi^J^PL63ag3XUM0
 I@WeXlTQj>a^jcT@NKJMQW0
 R1
 R2
-R30
-R31
-R32
+R25
+R26
+R27
 L0 1
 R3
 r1
 !s85 0
 31
-R33
-R34
-R35
+R8
+R28
+R29
 !i113 1
 R5
 R6
 vfulladder4
-R29
+R7
 !i10b 1
 !s100 A8]b1O12RA5_?OK7kooGn3
 I=<D9IDZgm2T_URIRc^C4?2
 R1
 R2
-R30
-R31
-R32
+R25
+R26
+R27
 L0 17
 R3
 r1
 !s85 0
 31
-R33
-R34
-R35
+R8
+R28
+R29
 !i113 1
 R5
 R6
 vfullAdder_1b
-R7
+R0
 !i10b 1
 !s100 1NDI3KXI<eSQI31O@nW]@3
 IC3?>]`EC<hlFh:zkFGKN70
 R1
 R2
-R8
-R9
-R10
+R11
+R12
+R13
 L0 72
 R3
 r1
 !s85 0
 31
-R11
-R12
-R13
+R4
+R14
+R15
 !i113 1
 R5
 R6
 nfull@adder_1b
 vinstr_decoder
-!s110 1729816968
+R7
 !i10b 1
 !s100 jk;eWd48WXj298=DYZ=?Z0
 I@MP_Ma?A7TidY8C02KV[Z0
@@ -403,14 +403,14 @@ R3
 r1
 !s85 0
 31
-!s108 1729816968.000000
+R8
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/instr_decoder.v|
 !i113 1
 R5
 R6
 vinverter16
-R21
+R0
 !i10b 1
 !s100 EoQF>XR=h=<8gAWnX34O23
 IKlRX4]^M^TPFIS:Deb7]h0
@@ -424,14 +424,14 @@ R3
 r1
 !s85 0
 31
-R24
+R4
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/inverter16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/inverter16.v|
 !i113 1
 R5
 R6
 vmemory
-R27
+R17
 !i10b 1
 !s100 0eXS7cS9U9UNA@:UaN6J=0
 IDV:XX?SA49KIa?K2FlG0A2
@@ -445,14 +445,14 @@ R3
 r1
 !s85 0
 31
-R28
+R18
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory.v|
 !i113 1
 R5
 R6
 vmemory2c
-Z36 !s110 1729810593
+R19
 !i10b 1
 !s100 1ITXY4ZWd3SeI8Nl4zmz13
 I14K6X7;_GGfVh_SU@15Gg3
@@ -466,14 +466,14 @@ R3
 r1
 !s85 0
 31
-Z37 !s108 1729810593.000000
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/memory2c.v|
 !i113 1
 R5
 R6
 vmux2_1
-R17
+R19
 !i10b 1
 !s100 Oj_KDEmLzPjY0URFU9i990
 I0?S@7Dh7YH5lL8=bGZD5l1
@@ -487,14 +487,14 @@ R3
 r1
 !s85 0
 31
-R18
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v|
 !i113 1
 R5
 R6
 vmux4_1
-!s110 1729810596
+R7
 !i10b 1
 !s100 ZLnPj1bJ3YIl0S]8]iSV_0
 I=e=PNWR48AK1F>T@bBTbn0
@@ -508,14 +508,14 @@ R3
 r1
 !s85 0
 31
-!s108 1729810596.000000
+R8
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux4_1.v|
 !i113 1
 R5
 R6
 vmux8_1
-R17
+R19
 !i10b 1
 !s100 Va>km@?RmS=`SN;>GlQ1^0
 I@3Hm3WM=d;D>J`GX8Uc@U2
@@ -529,14 +529,14 @@ R3
 r1
 !s85 0
 31
-R18
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux8_1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux8_1.v|
 !i113 1
 R5
 R6
 vnand2
-Z38 !s110 1729811896
+R9
 !i10b 1
 !s100 Qaz<XiJiE34aBgU@ChX]m0
 IQ9D>dcQVk=GF^7L<F<n;Q1
@@ -550,20 +550,20 @@ R3
 r1
 !s85 0
 31
-Z39 !s108 1729811896.000000
+R10
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nand2.v|
 !i113 1
 R5
 R6
 vnor2
-R38
+R9
 !i10b 1
 !s100 ^ST2=n6@V3Cn4lT]FaJWf1
 I;>@28iQ6JLAVYV9iLJjzl2
 R1
 R2
-Z40 w1485366436
+Z30 w1485366436
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v
 L0 1
@@ -571,20 +571,20 @@ R3
 r1
 !s85 0
 31
-R39
+R10
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/nor2.v|
 !i113 1
 R5
 R6
 vnot1
-Z41 !s110 1729811897
+R9
 !i10b 1
 !s100 [dhe[8iz;a=YaHa:alMQ`3
 IBWXg=SH6caBQZ5jzB]d7l1
 R1
 R2
-R40
+R30
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v
 L0 1
@@ -592,14 +592,14 @@ R3
 r1
 !s85 0
 31
-Z42 !s108 1729811897.000000
+R10
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/not1.v|
 !i113 1
 R5
 R6
 vop
-R19
+R0
 !i10b 1
 !s100 cYoGZR]Y^aIhFA>aG8^Ul1
 I31CSRU3LQ4iV]IM6ozNA]0
@@ -613,14 +613,14 @@ R3
 r1
 !s85 0
 31
-R20
+R4
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/op.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/op.v|
 !i113 1
 R5
 R6
 voverflow
-!s110 1729810601
+R0
 !i10b 1
 !s100 6ZI`GSHkYfjgEL>=?J^mE0
 ILZo@I9D2c@o8KaA4>kHL]3
@@ -634,20 +634,20 @@ R3
 r1
 !s85 0
 31
-!s108 1729810601.000000
+R4
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v|
 !i113 1
 R5
 R6
 vproc
-R36
+R19
 !i10b 1
-!s100 >3COW8@j``TX77OTAdK302
-IoDnmKd9jJ]7HCYN_YcCTa2
+!s100 9jQ<@m8Kl_^jn1J;VRXKG0
+I0gP=J4HX4_R_L<B;oL2MX2
 R1
 R2
-w1729660704
+w1729831154
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
 L0 5
@@ -655,14 +655,14 @@ R3
 r1
 !s85 0
 31
-R37
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v|
 !i113 1
 R5
 R6
 vproc_hier
-R36
+R19
 !i10b 1
 !s100 jGH_<J>T7TGh^mfl9i`Fo2
 IXF[WEc2G<]Md_EjA9C=hF1
@@ -676,14 +676,14 @@ R3
 r1
 !s85 0
 31
-R37
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier.v|
 !i113 1
 R5
 R6
 vproc_hier_bench
-R36
+R19
 !i10b 1
 !s100 NC65SoK17afJT_<_F7KdJ1
 IWo]b>AK=5RJ0lGli`^U[73
@@ -697,14 +697,14 @@ R3
 r1
 !s85 0
 31
-R37
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v|
 !i113 1
 R5
 R6
 vregFile_bypass
-R17
+R19
 !i10b 1
 !s100 9R4<EJ;V[T1K08=2n[ehW1
 IUo<QUQFa8`XC<gIB6;TAl3
@@ -718,7 +718,7 @@ R3
 r1
 !s85 0
 31
-R18
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v|
 !i113 1
@@ -726,7 +726,7 @@ R5
 R6
 nreg@file_bypass
 vregister
-R29
+R7
 !i10b 1
 !s100 l2<G=LijLz=[9Z1;iC]:L2
 Ie7Y2?77EhG2hE_9IeRKWX0
@@ -740,14 +740,14 @@ R3
 r1
 !s85 0
 31
-R18
+R8
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register.v|
 !i113 1
 R5
 R6
 vregister_bypass
-R29
+R7
 !i10b 1
 !s100 LVKNd8I5gSHN`cNBCK<TX3
 I:Pkb@fNaQ8305<n6YB_Ci1
@@ -761,7 +761,7 @@ R3
 r1
 !s85 0
 31
-R33
+R8
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/register_bypass.v|
 !i113 1
@@ -789,7 +789,7 @@ R4
 R5
 R6
 vsext16
-R21
+R7
 !i10b 1
 !s100 =ELbQ@f7[<hiJJPB<IOAT3
 IXXXQFKzfF045:YmDN3GdE0
@@ -803,14 +803,14 @@ R3
 r1
 !s85 0
 31
-R24
+R8
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/sext16.v|
 !i113 1
 R5
 R6
 vshifter
-R19
+R0
 !i10b 1
 !s100 OI7_giL=C>KG0`_<K70@V3
 I[V6CkOahmHl=T0hzniVRE3
@@ -824,14 +824,14 @@ R3
 r1
 !s85 0
 31
-R20
+R4
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/shifter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/shifter.v|
 !i113 1
 R5
 R6
 vSHL1
-!s110 1729826149
+R9
 !i10b 1
 !s100 7[8mk36`nUX@ZNVhFMBkN1
 IPC2W4ZdoVfbWQHJ`H:oo]0
@@ -845,7 +845,7 @@ R3
 r1
 !s85 0
 31
-!s108 1729826149.000000
+R10
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/SHL1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/SHL1.v|
 !i113 1
@@ -853,7 +853,7 @@ R5
 R6
 n@s@h@l1
 vwb
-R17
+R19
 !i10b 1
 !s100 @UJeM=8kHEYS`zm]bFD]<0
 IG;I3Vli`<on5WRnKA_kUn3
@@ -867,20 +867,20 @@ R3
 r1
 !s85 0
 31
-R18
+R20
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v|
 !i113 1
 R5
 R6
 vxor2
-R41
+R9
 !i10b 1
 !s100 URQ:lLM5T94FECh>cJDfl3
 I__W?7ZQGGR`Wo;zFa69f52
 R1
 R2
-R40
+R30
 8/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v
 F/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v
 L0 1
@@ -888,14 +888,14 @@ R3
 r1
 !s85 0
 31
-R42
+R10
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v|
 !i113 1
 R5
 R6
 vzext16
-R21
+R0
 !i10b 1
 !s100 9RDi0I0:0;^I4R`=9ieK[1
 Ic]WzlGAK?>Y_mBR<`8C5K0
@@ -909,7 +909,7 @@ R3
 r1
 !s85 0
 31
-R24
+R8
 !s107 /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/zext16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/zext16.v|
 !i113 1

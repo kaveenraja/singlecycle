@@ -27,7 +27,7 @@ module execute (// Outputs
 	output [15:0]	Out0;
 	output [15:0]	Out3;
 	output [15:0]	ALUOut;
-	output [15:0]   PCwb
+	output [15:0]   PCwb;
 	
 	// WIRE
 	

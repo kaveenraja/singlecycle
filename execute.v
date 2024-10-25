@@ -70,7 +70,7 @@ module execute (// Outputs
 
 	mux2_1 mux0[15:0](.a(internal_Imm8), .b(internal_Imm11), .s({16{ImmSrc}}), .out(internal_immjmp));
 
-	fulladder16 (.A(PC), .B(internal_immjmp), .S(internal_pcimpjmp), .Cout());
+	fulladder16 fa0(.A(PC), .B(internal_immjmp), .S(internal_pcimpjmp), .Cout());
 
 	mux2_1 mux1[15:0](.a(PC), .b(internal_pcimpjmp), .s({16{internal_BR}}), .out(internal_pc_preALUJmp));
 	mux2_1 mux2[15:0](.a(internal_pc_preALUJmp), .b(ALUOut), .s({16{ALUJmp}}), .out(PCwb));

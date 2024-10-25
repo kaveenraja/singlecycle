@@ -1,4 +1,11 @@
-/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v
+/home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/SHL1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/SHL1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module SHL1
+
+Top level modules:
+	SHL1
+
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module cla_16b
 -- Compiling module cla_4b
@@ -135,6 +142,13 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 Top level modules:
 	fetch
 
+} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module execute
+
+Top level modules:
+	execute
+
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/xor2.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 -- Compiling module xor2
@@ -176,13 +190,6 @@ Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
 
 Top level modules:
 	decode
-
-} {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v
-Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
--- Compiling module proc
-
-Top level modules:
-	proc
 
 } {} {}} /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v {1 {vlog -work work -stats=none /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/mux2_1.v
 Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018

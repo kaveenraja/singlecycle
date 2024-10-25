@@ -63,3 +63,160 @@
 # Compile of execute.v failed with 1 errors.
 # Compile of execute.v failed with 1 errors.
 # Compile of execute.v was successful.
+# Compile of execute.v was successful.
+# Compile of proc.v failed with 1 errors.
+# Compile of proc.v failed with 1 errors.
+# Compile of proc.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of decode.v was successful.
+# Compile of dff.v was successful.
+# Compile of execute.v was successful.
+# Compile of fetch.v was successful.
+# Compile of memory.v was successful.
+# Compile of memory2c.syn.v was successful.
+# Compile of memory2c.v was successful.
+# Compile of proc.v was successful.
+# Compile of proc_hier.v was successful.
+# Compile of proc_hier_bench.v was successful.
+# Compile of wb.v was successful.
+# Compile of decoder3_8.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of mux8_1.v was successful.
+# Compile of regFile_bypass.v was successful.
+# Compile of register.v was successful.
+# Compile of register_bypass.v was successful.
+# Compile of fulladder16.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of instr_decoder.v was successful.
+# Compile of ALU_OP.v was successful.
+# Compile of sext16.v was successful.
+# Compile of zext16.v was successful.
+# Compile of ecmux4_1.v was successful.
+# Compile of inverter16.v was successful.
+# Compile of op.v was successful.
+# Compile of shifter.v was successful.
+# Compile of alu.v was successful.
+# Compile of demux1_2.v was successful.
+# Compile of set.v was successful.
+# Compile of cla_16b.v was successful.
+# Compile of overflow.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of xor2.v was successful.
+# Compile of brncnd.v was successful.
+# Compile of SHL1.v was successful.
+# 39 compiles, 0 failed with no errors.
+vsim work.proc_hier_bench
+# vsim work.proc_hier_bench 
+# Start time: 23:39:42 on Oct 24,2024
+# //  ModelSim DE 10.7c Aug 17 2018Linux 5.15.0-124-generic
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.proc_hier_bench
+# Loading work.proc_hier
+# Loading work.clkrst
+# Loading work.proc
+# Loading work.fetch
+# Loading work.register_bypass
+# Loading work.register
+# Loading work.fulladder16
+# Loading work.fulladder4
+# Loading work.fulladder1
+# Loading work.xor2
+# Loading work.nand2
+# Loading work.not1
+# Loading work.nor2
+# Loading work.memory2c
+# Loading work.decode
+# Loading work.instr_decoder
+# Loading work.zext16
+# Loading work.sext16
+# Loading work.regFile_bypass
+# Loading work.decoder3_8
+# Loading work.mux8_1
+# Loading work.execute
+# Loading work.ALU_OP
+# Loading work.alu
+# Loading work.inverter16
+# Loading work.shifter
+# Loading work.op
+# Loading work.mux2_1
+# Loading work.cla_16b
+# Loading work.overflow
+# Loading work.set
+# Loading work.brncnd
+# Loading work.SHL1
+# Loading work.memory
+# Loading work.wb
+# Loading work.mux4_1
+# Loading work.dff
+# Loading work.ecmux4_1
+# Loading work.cla_4b
+# Loading work.demux1_2
+# Loading work.fullAdder_1b
+# ** Warning: (vsim-3008) [CNNODP] - Component name (regFile0) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 131
+# ** Error: (vsim-3043) Unresolved reference to 'regFile0' in DUT.p0.decode0.regFile0.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 131
+# ** Warning: (vsim-3008) [CNNODP] - Component name (instr) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 129
+# ** Error: (vsim-3043) Unresolved reference to 'instr' in DUT.p0.fetch0.instr.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 129
+# ** Warning: (vsim-3008) [CNNODP] - Component name (pcCurrent) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 128
+# ** Error: (vsim-3043) Unresolved reference to 'pcCurrent' in DUT.p0.fetch0.pcCurrent.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 128
+# ** Warning: (vsim-3008) [CNNODP] - Component name (aluResult) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 146
+# ** Error: (vsim-3043) Unresolved reference to 'aluResult' in DUT.p0.memory0.aluResult.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 146
+# ** Warning: (vsim-3008) [CNNODP] - Component name (halt) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 152
+# ** Error: (vsim-3043) Unresolved reference to 'halt' in DUT.p0.memory0.halt.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 152
+# ** Warning: (vsim-3008) [CNNODP] - Component name (memRead) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 140
+# ** Error: (vsim-3043) Unresolved reference to 'memRead' in DUT.p0.memory0.memRead.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 140
+# ** Warning: (vsim-3008) [CNNODP] - Component name (memReadorWrite) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 143
+# ** Error: (vsim-3043) Unresolved reference to 'memReadorWrite' in DUT.p0.memory0.memReadorWrite.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 143
+# ** Warning: (vsim-3008) [CNNODP] - Component name (memWrite) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 143
+# ** Error: (vsim-3043) Unresolved reference to 'memWrite' in DUT.p0.memory0.memWrite.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 143
+# ** Warning: (vsim-3008) [CNNODP] - Component name (writeData) is not on a downward path.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 149
+# ** Error: (vsim-3043) Unresolved reference to 'writeData' in DUT.p0.memory0.writeData.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc_hier_bench.v Line: 149
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'in'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decoder3_8.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/decode0/regFile/decoder0 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'in'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decoder3_8.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/decode0/regFile/decoder1 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'in'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/decoder3_8.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/decode0/regFile/decoder2 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/regFile_bypass.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (5) for port 'brin'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/execute.v(11).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/execu0 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v Line: 54
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (16) for port 'ShAmt'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/shifter.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/execu0/alu0/shf0 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/alu.v Line: 68
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'c_out'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/cla_16b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/execu0/alu0/cla0 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/alu.v Line: 76
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'carry'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/overflow.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/execu0/alu0/of0 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/alu.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (2) for port 'RegSrc'. The port definition is at: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/wb.v(11).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/wb0 File: /home/kaveen/cs552/cpuprojects/project-work/demo1/verilog/proc.v Line: 58
+# Error loading design
+# End time: 23:39:42 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 17
