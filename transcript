@@ -41,3 +41,18 @@
 # Compile of alu.v was successful.
 # Compile of set.v was successful.
 # 2 compiles, 0 failed with no errors.
+# Compile of ALU_OP.v failed with 2 errors.
+# Compile of ALU_OP.v failed with 2 errors.
+# Compile of ALU_OP.v failed with 2 errors.
+# Compile of ALU_OP.v failed with 1 errors.
+# Compile of ALU_OP.v failed with 1 errors.
+# Compile of ALU_OP.v was successful.
+# Compile of ALU_OP.v failed with 2 errors.
+# Compile of ALU_OP.v was successful.
+# Compile of instr_decoder.v was successful.
+# Compile of ALU_OP.v failed with 3 errors.
+# Compile of ALU_OP.v failed with 6 errors.
+# Compile of ALU_OP.v failed with 3 errors.
+# Compile of ALU_OP.v was successful.
+# Compile of brncnd.v failed with 9 errors.
+# Compile of brncnd.v was successful.

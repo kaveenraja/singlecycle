@@ -4,10 +4,16 @@
    Filename        : execute.v
    Description     : This is the overall module for the execute stage of the processor.
 */
-`default_nettype none
-module execute (/* TODO: Add appropriate inputs/outputs for your execute stage here*/);
 
-   // TODO: Your code here
+module execute (// Outputs
+	Out0, Out3 ALUout,
+ 	// Inputs
+  	to_ALUOP, func, Reg1, Reg2, Imm5, Imm8, Imm11, Bsrc, brin, ALUJmp, ImmSrc);
+
+  	// IN/OUT
+
+
+	//WIRE
    
 endmodule
-`default_nettype wire
+

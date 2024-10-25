@@ -397,6 +397,18 @@ module instr_decoder (// Outputs
 					ImmSrc = 1'b0;
 				end
 
+			default:
+				begin
+					RegDst = 2'b00;
+					RegSrc = 2'b00;
+					_0ext  = 1'b0;
+					RegWrt = 1'b0;
+					Bsrc   = 2'b00;
+					brin   = 5'b00000;
+					MemWrt = 1'b0;
+					ALUJmp = 1'b0;
+					ImmSrc = 1'b0;
+				end
 		endcase
 	end
 
