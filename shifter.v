@@ -43,7 +43,7 @@ module shifter (In, ShAmt, Oper, Out);
 
     /* In -> STAGE 1 -> inverter_out0 */
 
-	inverter16 inverter0(.in(In), .en(~Oper[1]), .out(inverter_out0));
+	inverter16 inverter0(.in(In), .en(~Oper[0]), .out(inverter_out0));
 
     /* inverter_out0 -> STAGE 2 ->  shift_8b_out*/
 
@@ -156,6 +156,6 @@ module shifter (In, ShAmt, Oper, Out);
 
     /* shift_1b_out -> STAGE 6 ->  Out*/ 
 
-	inverter16 inverter1(.in(shift_1b_out), .en(~Oper[1]), .out(Out));
+	inverter16 inverter1(.in(shift_1b_out), .en(~Oper[0]), .out(Out));
 
 endmodule

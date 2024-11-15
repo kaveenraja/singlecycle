@@ -7,9 +7,9 @@ module set(Of, Cf, Zf, Sf, Oper, out);
 	begin
 		case(Oper)
 			2'b00: out = Zf ? 16'h0001 : 16'h0000;
-			2'b01: out = ~Sf ? 16'h0001 : 16'h0000;
-			2'b10: out = (Zf | ~Sf) ? 16'h0001 : 16'h0000;
-			2'b11: out = Of ? 16'h0001 : 16'h0000;
+			2'b01: out = ~(Sf == Of) ? 16'h0001 : 16'h0000;
+			2'b10: out = ~(Sf == Of) | Zf ? 16'h0001 : 16'h0000;
+			2'b11: out = Cf ? 16'h0001 : 16'h0000;
 			
 		endcase
 	end

@@ -44,10 +44,8 @@ module execute (// Outputs
 
 	wire			internal_BR;
 
-	wire [15:0]		internal_Imm8;
-	wire [15:0]  	internal_Imm11;
-	wire [15:0]  	internal_immjmp;
 
+	wire [15:0]  	internal_immjmp;
 	wire [15:0]  	internal_pcimpjmp;
 	wire [15:0]  	internal_pc_preALUJmp;
 
@@ -60,15 +58,12 @@ module execute (// Outputs
 	ecmux4_1 ecmux0[15:0](.a(Reg2), .b(Imm5), .c(Imm8), .d(16'h0008), .s( {16{BSrc}} ), .out(internal_InB));
 	alu alu0(.InA(Reg1), .InB(internal_InB), .Cin(internal_cin), .Oper(internal_aluop), .invA(internal_InvA), .invB(internal_InvB), .sign(1'b1), .Out(ALUOut), .Cfl(internal_Cf), .Sfl(internal_Sf), .Ofl(internal_Of), .Zfl(internal_Zf));
    
-	assign Out3 = ALUOut | internal_InB;
+	assign Out3 = ALUOut | Imm8;
 
 	// JUMP/BRANCH LOGIC
 	brncnd brcd0(.brin(brin), .SF(internal_Sf), .ZF(internal_Zf), .OF(internal_Of), .CF(internal_Cf), .BR(internal_BR));
-	
-	SHL1 sh0(.in(Imm8), .out(internal_Imm8));
-	SHL1 sh1(.in(Imm11), .out(internal_Imm11));
 
-	mux2_1 mux0[15:0](.a(internal_Imm8), .b(internal_Imm11), .s({16{ImmSrc}}), .out(internal_immjmp));
+	mux2_1 mux0[15:0](.a(Imm8), .b(Imm11), .s({16{ImmSrc}}), .out(internal_immjmp));
 
 	fulladder16 fa0(.A(PC), .B(internal_immjmp), .S(internal_pcimpjmp), .Cout());
 

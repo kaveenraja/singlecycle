@@ -88,6 +88,14 @@ module ALU_OP (// Outputs
 				cin  = 1'b0;
 			end
 
+			5'b10000:
+			begin
+				ALU  = 4'b0100;
+				InvA = 1'b0;
+				InvB = 1'b0;
+				cin  = 1'b0;
+			end
+
 			5'b10001:
 			begin
 				ALU  = 4'b0100;
@@ -187,24 +195,24 @@ module ALU_OP (// Outputs
 			5'b11100:
 			begin
 				ALU  = 4'b1100;
-				InvA = 1'b1;
-				InvB = 1'b0;
+				InvA = 1'b0;
+				InvB = 1'b1;
 				cin  = 1'b1;
 			end
 
 			5'b11101:
 			begin
 				ALU  = 4'b1101;
-				InvA = 1'b1;
-				InvB = 1'b0;
+				InvA = 1'b0;
+				InvB = 1'b1;
 				cin  = 1'b1;
 			end
 
 			5'b11110:
 			begin
 				ALU  = 4'b1110;
-				InvA = 1'b1;
-				InvB = 1'b0;
+				InvA = 1'b0;
+				InvB = 1'b1;
 				cin  = 1'b1;
 			end
 

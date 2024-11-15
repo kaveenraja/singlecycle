@@ -59,7 +59,7 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
 	demux1_2 demux0[15:0](.Inp(invA_out), .S( {16{Oper[2]}} ), .OutA(shifter_in_a), .OutB(logic_in_a));
 	demux1_2 demux1[15:0](.Inp(invB_out), .S( {16{Oper[2]}} ), .OutA(shifter_in_b), .OutB(logic_in_b_pre));
 
-	assign logic_in_b = ~(~Oper[3] & Oper[2] & Oper[1] & ~Oper[0]) & logic_in_b_pre;
+	assign logic_in_b = (Oper === 4'b0110) ? 16'h0000 : logic_in_b_pre;
     
 
 	/* Shifter */
@@ -75,7 +75,7 @@ module alu (InA, InB, Cin, Oper, invA, invB, sign, Out, Cfl, Sfl, Ofl, Zfl);
 
 	cla_16b cla0(.a(logic_in_a), .b(logic_in_b), .c_in(Cin), .sum(cla_sum), .c_out(cla_cout));
 	overflow of0(.a(logic_in_a[15]), .b(logic_in_b[15]), .s(cla_sum[15]), .carry(cla_cout), .sign(sign), .out(Ofl));
-	assign Cfl = cla_cout & ~sign;
+	assign Cfl = cla_cout;
 
 	ecmux4_1 ecmux0[15:0](.a(cla_sum), .b(and_out), .c(cla_sum), .d(xor_out), .s( {16{Oper[1:0]}} ), .out(logic_out_pre));
 	mux2_1 mux3[15:0](.a(logic_out_pre), .b(cla_sum), .s( {16{Oper[3]}} ), .out(logic_out));
